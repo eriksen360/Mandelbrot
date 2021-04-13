@@ -66,7 +66,7 @@ void Mandelbrot::generateImage(const unsigned int& height, const unsigned int& w
 			iterations = getIteration(coords.first, coords.second);
 			hue = (double)iterations / MAX_ITERATIONS;
 
-			//Vi kan ved at tweeke farvekombinationerne få nogle rimelige imponerede strukturer
+			//Vi kan ved at tweeke farvekombinationerne fÃ¥ nogle rimelige imponerede strukturer
 			colorDiff = getShadingFromIterations(iterations);
 			red = startColor.red + colorDiff.red * hue * fabs(coords.first - coords.second);
 			green = startColor.green + colorDiff.green * hue;
