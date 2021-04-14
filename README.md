@@ -15,6 +15,7 @@ OR
     
      _ z_n = c * z_n * (1 - z_n)_
      
-The resolution of the bit map can suffer when zooming more than just a few times, but will be implemented using vector graphics in the future.
+The resolution of the bit map can suffer when zooming more than just a few times, but will be implemented using vector graphics in the future and
+hopefully convert our raster into an .svg file
         
      
