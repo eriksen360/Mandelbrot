@@ -19,3 +19,4 @@ The resolution of the bit map can suffer when zooming more than just a few times
 hopefully convert our raster into an .svg file using wxWidgets GUI library. 
         
      
+Updated file from Git :)
